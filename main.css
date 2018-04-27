@@ -39,26 +39,20 @@ h2 {
 }
 
 a {
-    color: #0083e8;
-}
+    color: darkcyan;
+    -moz-box-shadow: 8px 10px 2px #000000;
+-webkit-box-shadow: 8px 10px 2px #000000;
+box-shadow: 8px 10px 2px #000000;
+    
+   
 
 b, strong {
     font-weight: 600;
 }
 
-samp {
-    display: none;
-}
 
-img {
-    animation: colorize 2s cubic-bezier(0, 0, .78, .36) 1;
-    background: transparent;
-    border: 10px solid rgba(0, 0, 0, 0.12);
-    border-radius: 4px;
-    display: block;
-    margin: 1.3em auto;
-    max-width: 95%;
-}
+
+
 
 @keyframes colorize {
     0% {
